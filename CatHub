@@ -2641,7 +2641,7 @@ do
 	L_92_.BorderSizePixel = 0
 	L_92_.Position = UDim2.new(0.120833337, 0, 0.0952890813, 0)
 	L_92_.Size = UDim2.new(0, 50, 0, 50)
-	L_92_.Image = "rbxassetid://15943857180"
+	L_92_.Image = "rbxassetid://17253825734"
 	L_92_.MouseButton1Click:Connect(function()
 		game:GetService("VirtualInputManager"):SendKeyEvent(true, Enum.KeyCode.End, false, game)
 	end)
@@ -7164,14 +7164,13 @@ end
 --info
 L_5_.Info:AddButton(
         {
-            Title = "Thank for use SlimeX_Hub",
-            Description = "dev by Slimex sp by TThe",
+            Description = "Made By Hazie",
             Callback = function()
-                setclipboard("dev by Slimex sp by TThe")
+                setclipboard("Made By Hazie")
                 Fluent:Notify(
                     {
-                        Title = "SlimeX_Hub",
-                        Content = "dev by Slimex sp by TThe",
+                        Title = "Cat_Hub",
+                        Content = "Made by Hazie ",
                         SubContent = "", -- Optional
                         Duration = 5 -- Set to nil to make the notification not disappear
                     }
@@ -7181,13 +7180,13 @@ L_5_.Info:AddButton(
     )
 L_5_.Info:AddButton(
         {
-            Title = "Copy Discord SlimeX_Hub",
-            Description = "https://discord.gg/hWrKvbMrVF",
+            Title = "Copy Discord Cat_Hub",
+            Description = "https://discord.gg/haziecommunity
             Callback = function()
-                setclipboard("https://discord.gg/hWrKvbMrVF")
+                setclipboard("https://discord.gg/haziecommunity")
                 Fluent:Notify(
                     {
-                        Title = "SlimeX_Hub",
+                        Title ="Cat_Hub",
                         Content = "Copied!",
                         SubContent = "", -- Optional
                         Duration = 5 -- Set to nil to make the notification not disappear
