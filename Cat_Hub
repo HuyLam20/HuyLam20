@@ -2641,7 +2641,7 @@ do
 	L_92_.BorderSizePixel = 0
 	L_92_.Position = UDim2.new(0.120833337, 0, 0.0952890813, 0)
 	L_92_.Size = UDim2.new(0, 50, 0, 50)
-	L_92_.Image = "rbxassetid://791398759"
+	L_92_.Image = "rbxassetid://17253825734"
 	L_92_.MouseButton1Click:Connect(function()
 		game:GetService("VirtualInputManager"):SendKeyEvent(true, Enum.KeyCode.End, false, game)
 	end)
